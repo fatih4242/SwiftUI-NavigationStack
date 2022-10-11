@@ -11,6 +11,9 @@
 		EEF7D84628F5C7D600A2CA82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7D84528F5C7D600A2CA82 /* ContentView.swift */; };
 		EEF7D84828F5C7D700A2CA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF7D84728F5C7D700A2CA82 /* Assets.xcassets */; };
 		EEF7D84B28F5C7D700A2CA82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF7D84A28F5C7D700A2CA82 /* Preview Assets.xcassets */; };
+		EEF7D85328F5C83800A2CA82 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7D85228F5C83800A2CA82 /* Dog.swift */; };
+		EEF7D85528F5C87E00A2CA82 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7D85428F5C87E00A2CA82 /* Cat.swift */; };
+		EEF7D85728F5C96C00A2CA82 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7D85628F5C96C00A2CA82 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EEF7D84528F5C7D600A2CA82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEF7D84728F5C7D700A2CA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF7D84A28F5C7D700A2CA82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEF7D85228F5C83800A2CA82 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		EEF7D85428F5C87E00A2CA82 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		EEF7D85628F5C96C00A2CA82 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				EEF7D84528F5C7D600A2CA82 /* ContentView.swift */,
 				EEF7D84728F5C7D700A2CA82 /* Assets.xcassets */,
 				EEF7D84928F5C7D700A2CA82 /* Preview Content */,
+				EEF7D85228F5C83800A2CA82 /* Dog.swift */,
+				EEF7D85428F5C87E00A2CA82 /* Cat.swift */,
+				EEF7D85628F5C96C00A2CA82 /* SecondView.swift */,
 			);
 			path = SwiftUINavigation;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF7D85528F5C87E00A2CA82 /* Cat.swift in Sources */,
+				EEF7D85728F5C96C00A2CA82 /* SecondView.swift in Sources */,
 				EEF7D84628F5C7D600A2CA82 /* ContentView.swift in Sources */,
 				EEF7D84428F5C7D600A2CA82 /* SwiftUINavigationApp.swift in Sources */,
+				EEF7D85328F5C83800A2CA82 /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
